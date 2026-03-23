@@ -1,0 +1,7 @@
+# Following are the minimum set of parameters required to create an AWS Lambda Function Definition.
+# Please make sure your uploaded manifest file includes all of them.
+
+functionName: lambda_lab_function
+handler: lambda_function.lambda_handler
+role: arn:aws:iam::824987503353:role/lambda_exec_role
+runtime: python3.11
