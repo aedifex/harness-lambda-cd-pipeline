@@ -5,3 +5,8 @@ functionName: lambda_lab_function
 handler: lambda_function.lambda_handler
 role: arn:aws:iam::824987503353:role/lambda_exec_role
 runtime: python3.11
+
+environment:
+  variables:
+    VERSION: <+pipeline.sequenceId>
+    ENVIRONMENT: dev
