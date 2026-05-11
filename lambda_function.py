@@ -16,6 +16,7 @@ def lambda_handler(event: dict, context) -> dict:
     try:
         body = {
             "message": "hello from lambda",
+            "function_name": "lambda_lab_function",
             "service":     os.environ.get("SERVICE_NAME", "harness-lambda-lab"),
             "version":     os.environ.get("VERSION"),
             "environment": os.environ.get("ENVIRONMENT", "dev"),
