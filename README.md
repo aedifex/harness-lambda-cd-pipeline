@@ -12,18 +12,6 @@ The goal of this repo is to incrementally explore:
 
 ## Current Flow
 
-```text
-Python Lambda
-  ->
-ZIP Artifact
-  ->
-S3
-  ->
-Harness Deploy
-  ->
-AWS Lambda
-```
-
 ![Architecture Diagram](architecture-diagram.png)
 
 ## Current Features
