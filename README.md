@@ -24,6 +24,8 @@ Harness Deploy
 AWS Lambda
 ```
 
+![Architecture Diagram](architecture-diagram.png)
+
 ## Current Features
 
 - AWS Lambda Function URL
